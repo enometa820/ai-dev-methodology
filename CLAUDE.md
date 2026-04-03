@@ -44,10 +44,10 @@
 
 ### 4. MOAI ADK
 - GitHub: https://github.com/modu-ai/moai-adk
-- 핵심: 24개 전문 에이전트 + 52개 스킬, Go 단일 바이너리
+- 핵심: 26개 전문 에이전트(8관리자+8전문가+3제작자+1평가자+6에이전시) + 52개 스킬, Go 단일 바이너리
 - 철학: "하네스 엔지니어링" — 인간은 AI가 작동할 환경을 설계, 실행은 AI가
 - 개발: 한국 팀(modu-ai) — 리포트에서 차별화 포인트로 활용 가능
-- 설치: PowerShell 7.x+에서 1줄 스크립트
+- 설치: PowerShell 7.x+에서 1줄 스크립트 (전역 설치 완료)
 - 연구 완료: `docs/research/moai-adk.md`
 
 ---
@@ -77,10 +77,11 @@ enometa-report/
 
 - [x] 4개 방법론 GitHub 리서치 완료
 - [x] 개별 연구 문서 작성 완료
-- [ ] BMAD 설치 (`npx bmad-method install`)
-- [ ] Ralph 스킬 설치 (`~/.claude/skills/`)
-- [ ] MOAI ADK 설치 (PowerShell 스크립트)
-- [ ] 리포트 초안 작성
+- [x] BMAD 설치 완료 (`frameworks/bmad/` + 전역)
+- [x] Ralph 스킬 설치 완료 (`frameworks/ralph/` + `~/.claude/skills/`)
+- [x] Superpowers 설치 완료 (`frameworks/superpowers/` + `~/.claude/` 활성화)
+- [x] MOAI ADK 설치 완료 (`frameworks/moai-adk/` + 전역 바이너리)
+- [x] 리포트 초안 작성 완료 (`docs/report/draft.md`)
 - [ ] 노션 업로드
 - [ ] PDF 출력 및 제출
 
